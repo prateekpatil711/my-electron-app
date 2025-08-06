@@ -41,4 +41,18 @@ module.exports = {
       [FuseV1Options.OnlyLoadAppFromAsar]: true,
     }),
   ],
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'prateekpatil0711',
+          name: 'my-electron-app'
+        },
+        prerelease: false,
+        draft: true,
+        authToken: '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'
+      }
+    }
+  ]
 };
