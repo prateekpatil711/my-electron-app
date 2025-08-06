@@ -51,12 +51,11 @@ module.exports = {
       name: '@electron-forge/publisher-github',
       config: {
         repository: {
-          owner: 'prateekpatil0711',
+          owner: 'prateekpatil711',
           name: 'my-electron-app'
         },
         prerelease: false,
-        draft: true,
-        authToken: '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'
+        draft: true
       }
     }
   ]
